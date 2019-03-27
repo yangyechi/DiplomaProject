@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Cpplint>
+<Score Value="30.5"/>
+<NestedLoop Value="true"/>
+<NestedSelect Value="true"/>
+<VariableName Value="true"/>
+</Cpplint>

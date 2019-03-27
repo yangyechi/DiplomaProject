@@ -1,0 +1,12 @@
+cpplint:代码规范性检查工具
+本地：设置默认的过滤器参数、错误统计的详细程度
+前端：
+1、可以设置除默认检查项以外的其他检查项（Input框输出正确的参数——符合指定格式，需要前端进行检查）
+2、可以扩展cpplint.py文件没有定义的文件扩展名
+默认支持的后缀名：（'h', 'hh', 'hpp', 'hxx', 'h++', 'cuh','c', 'cc', 'cpp', 'cxx', 'c++', 'cu'）
+
+--extensions=xxx    可以使cpplint支持检查后缀名为xxx的文件
+//指定错误信息输出格式
+python E:/cpplint.py --output E:/test.cpp 2>E:/log/test3.txt
+emacs|eclipse|vs7|junit
+python E:/cpplint.py --output=vs7 E:/test.cpp 2>E:/log/test.txt
