@@ -1,1 +1,0 @@
-cout<<testNum<<endl; // N,.*&9&NOLINTA&... A//////
